@@ -21,3 +21,4 @@ func _physics_process(delta):
 
 	motion *= speed          # 根据角色速度来缩放motion向量
 	motion = move_and_slide(motion)  # 使用move_and_slide()函数来将角色移动
+    pass
