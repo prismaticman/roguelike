@@ -1,0 +1,37 @@
+[gd_resource type="Theme" load_steps=8 format=2]
+
+[ext_resource path="res://font/ZCOOLQingKeHuangYou-Regular.ttf" type="DynamicFontData" id=1]
+
+[sub_resource type="DynamicFont" id=5]
+size = 52
+outline_size = 2
+outline_color = Color( 0.721569, 0.462745, 0.419608, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="StyleBoxLine" id=6]
+
+[sub_resource type="StyleBoxLine" id=7]
+color = Color( 0, 0, 0, 0 )
+
+[sub_resource type="StyleBoxLine" id=8]
+color = Color( 0, 0, 0, 0 )
+
+[sub_resource type="StyleBoxLine" id=9]
+color = Color( 0, 0, 0, 0 )
+
+[sub_resource type="StyleBoxLine" id=10]
+color = Color( 0, 0, 0, 0 )
+
+[resource]
+Button/colors/font_color = Color( 0.839216, 0.878431, 0.34902, 1 )
+Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
+Button/colors/font_color_focus = Color( 0.839216, 0.878431, 0.34902, 1 )
+Button/colors/font_color_hover = Color( 0.839216, 0.890196, 0.368627, 1 )
+Button/colors/font_color_pressed = Color( 0.972549, 0.988235, 0.682353, 1 )
+Button/constants/hseparation = 5
+Button/fonts/font = SubResource( 5 )
+Button/styles/disabled = SubResource( 6 )
+Button/styles/focus = SubResource( 7 )
+Button/styles/hover = SubResource( 8 )
+Button/styles/normal = SubResource( 9 )
+Button/styles/pressed = SubResource( 10 )
